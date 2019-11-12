@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{extarrows}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -105,6 +108,14 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\bE}{\mathbb{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\bF}{\mathbb{F}}
 \end_inset
 
@@ -121,7 +132,31 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\bP}{\mathbb{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bQ}{\mathbb{Q}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\bR}{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bT}{\mathbb{T}}
 \end_inset
 
 
@@ -137,6 +172,22 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cB}{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cD}{\mathcal{D}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cF}{\mathcal{F}}
 \end_inset
 
@@ -145,7 +196,79 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cK}{\mathcal{K}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cL}{\mathcal{L}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cLp}[1]{\mathcal{L}^{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cLpp}[1]{\mathcal{L}_{+}^{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cLsimp}{\mathcal{L}_{simp}^{0}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cN}{\mathcal{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cO}{\mathcal{O}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cS}{\mathcal{S}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cT}{\mathcal{T}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sF}{\mathscr{F}}
 \end_inset
 
 
@@ -197,6 +320,14 @@ norm, abs
 \end_layout
 
 \begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inv}[1]{#1^{-1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Comment
 status open
 
@@ -211,7 +342,23 @@ Linear algebra
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\adjoint}[1]{#1^{*}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\annihilator}[1]{#1^{\circ}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\annihilatee}[1]{#1^{\perp}}
 \end_inset
 
 
@@ -256,6 +403,14 @@ other
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\converge}[1]{\overset{#1}{\joinrel\longrightarrow}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\define}{\triangleq}
 \end_inset
 
@@ -272,7 +427,39 @@ other
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\enumvec}[2]{\left(#1_{1},\dots,#1_{#2}\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\enuminf}[1]{\left\{  #1_{1},#1_{2}\dots\right\}  }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\equivalent}{\Longleftrightarrow}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\substitute}[1]{\overset{#1}{\joinrel===}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tensor}{\otimes}
 \end_inset
 
 
@@ -293,8 +480,8 @@ rm-font operators
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\liminf}[1]{\underset{#1}{\operatorname{liminf}}}
-{\underset{#1}{\mathrm{liminf}}}
+\newcommand{\liminf}[1]{\underset{#1}{\operatorname{lim\,inf}}}
+{\underset{#1}{\mathrm{lim\,inf}}}
 \end_inset
 
 
@@ -302,8 +489,35 @@ rm-font operators
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\limsup}[1]{\underset{#1}{\operatorname{limsup}}}
-{\underset{#1}{\mathrm{limsup}}}
+\newcommand{\limsup}[1]{\underset{#1}{\operatorname{lim\,sup}}}
+{\underset{#1}{\mathrm{lim\,sup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\essinf}[1]{\underset{#1}{\operatorname{ess\,inf}}}
+{\underset{#1}{\mathrm{ess\,inf}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\esssup}[1]{\underset{#1}{\operatorname{ess\,sup}}}
+{\underset{#1}{\mathrm{ess\,sup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sgn}{\operatorname{sgn}}
+{\mathrm{sgn}}
 \end_inset
 
 
@@ -321,7 +535,7 @@ rm-font operators
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\Null}{\operatorname{Null}}
-{Null}
+{\mathrm{Null}}
 \end_inset
 
 
@@ -330,7 +544,43 @@ rm-font operators
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\Range}{\operatorname{Range}}
-{Range}
+{\mathrm{Range}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\io}{\operatorname{i.o.}}
+{\mathrm{i.o.}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ae}{\operatorname{a.e.}}
+{\mathrm{a.e.}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\as}{\operatorname{a.s.}}
+{\mathrm{a.s.}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\d}[1]{\operatorname{d}#1}
+{\mathrm{d}#1}
 \end_inset
 
 
