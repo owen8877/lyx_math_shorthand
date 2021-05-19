@@ -124,6 +124,14 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\bK}{\mathbb{K}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\bN}{\mathbb{N}}
 \end_inset
 
@@ -172,7 +180,23 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cA}{\mathcal{A}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cB}{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cC}{\mathcal{C}}
 \end_inset
 
 
@@ -188,7 +212,47 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cE}{\mathcal{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cF}{\mathcal{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cG}{\mathcal{G}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cH}{\mathcal{H}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cI}{\mathcal{I}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cJ}{\mathcal{J}}
 \end_inset
 
 
@@ -236,6 +300,14 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cM}{\mathcal{M}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cN}{\mathcal{N}}
 \end_inset
 
@@ -252,6 +324,22 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\cP}{\mathcal{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cR}{\mathcal{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cS}{\mathcal{S}}
 \end_inset
 
@@ -261,6 +349,70 @@ mathbb, mathcal
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\cT}{\mathcal{T}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cU}{\mathcal{U}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cV}{\mathcal{V}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cW}{\mathcal{W}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cY}{\mathcal{Y}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cZ}{\mathcal{Z}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fq}{\mathscr{\mathfrak{q}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sD}{\mathscr{D}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sH}{\mathscr{H}}
 \end_inset
 
 
@@ -289,7 +441,7 @@ norm, abs
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\norm}[1]{\left|\left|#1\right|\right|}
+\newcommand{\norm}[1]{\left\Vert #1\right\Vert }
 \end_inset
 
 
@@ -297,7 +449,7 @@ norm, abs
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\np}[2]{\left|\left|#1\right|\right|_{#2}}
+\newcommand{\np}[2]{\left\Vert #1\right\Vert _{#2}}
 \end_inset
 
 
@@ -305,7 +457,7 @@ norm, abs
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\nlp}[2]{\left|\left|#1\right|\right|_{L^{#2}}}
+\newcommand{\nlp}[2]{\left\Vert #1\right\Vert _{L^{#2}}}
 \end_inset
 
 
@@ -581,6 +733,42 @@ rm-font operators
 \begin_inset FormulaMacro
 \newcommand{\d}[1]{\operatorname{d}#1}
 {\mathrm{d}#1}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\D}[1]{\operatorname{D}#1}
+{\mathrm{D}#1}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Db}[1]{\operatorname{D}\left[#1\right]}
+{\mathrm{D}\left[#1\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cov}{\operatorname{cov}}
+{\mathrm{cov}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\supp}{\operatorname{supp}}
+{\mathrm{supp}}
 \end_inset
 
 
