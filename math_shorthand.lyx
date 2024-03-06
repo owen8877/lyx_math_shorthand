@@ -100,6 +100,14 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\bB}{\mathbb{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\bC}{\mathbb{C}}
 \end_inset
 
@@ -396,7 +404,87 @@ mathbb, mathcal
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\fd}{\mathscr{\mathfrak{d}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fm}{\mathscr{\mathfrak{m}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fp}{\mathscr{\mathfrak{p}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\fq}{\mathscr{\mathfrak{q}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fu}{\mathfrak{u}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fv}{\mathfrak{v}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fH}{\mathscr{\mathfrak{H}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fL}{\mathscr{\mathfrak{L}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fK}{\mathscr{\mathfrak{K}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fN}{\mathscr{\mathfrak{N}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fS}{\mathscr{\mathfrak{S}}}
 \end_inset
 
 
@@ -413,6 +501,14 @@ mathbb, mathcal
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\sH}{\mathscr{H}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\sK}{\mathscr{K}}
 \end_inset
 
 
@@ -686,6 +782,14 @@ rm-font operators
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\transpose}[1]{\overset{\text{T}}{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\Null}{\operatorname{Null}}
 {\mathrm{Null}}
 \end_inset
@@ -697,6 +801,24 @@ rm-font operators
 \begin_inset FormulaMacro
 \newcommand{\Range}{\operatorname{Range}}
 {\mathrm{Range}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pv}{\operatorname{p.v.}}
+{\mathrm{p.v.}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tr}{\operatorname{\mathbf{Tr}}}
+{\mathbf{Tr}}
 \end_inset
 
 
