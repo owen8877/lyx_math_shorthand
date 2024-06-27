@@ -782,7 +782,8 @@ rm-font operators
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\transpose}[1]{\overset{\text{T}}{#1}}
+\newcommand{\transpose}[1]{{#1}^{T}}
+{\overset{\text{T}}{#1}}
 \end_inset
 
 
